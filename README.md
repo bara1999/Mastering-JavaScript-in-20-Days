@@ -40,3 +40,4 @@ In this challenge, we will improve our JavaScript skills . By working with hands
 ## Folder Structure
 -  [**Day 1**](https://github.com/bara1999/Mastering-JavaScript-in-20-Days/Day1.md)
 -  [**Day 2**](https://github.com/bara1999/Mastering-JavaScript-in-20-Days/Day2.md)
+-  [**Day 3**](https://github.com/bara1999/Mastering-JavaScript-in-20-Days/Day3.md)
