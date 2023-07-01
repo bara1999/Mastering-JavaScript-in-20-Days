@@ -34,3 +34,8 @@ In this challenge, we will improve our JavaScript skills . By working with hands
 2. Solve all the JavaScript coding challenges that will be provided by the GSG team.
 3. Summarize my daily learning and document your challenge solutions on a separate readme page.
 4. Repeat the process for the next 20 days, gradually advancing your JavaScript skills.
+
+
+
+## Folder Structure
+-  [**Day 1**](https://github.com/bara1999/Mastering-JavaScript-in-20-Days/Day1.md)
