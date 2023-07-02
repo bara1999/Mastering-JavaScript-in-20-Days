@@ -41,3 +41,4 @@ In this challenge, we will improve our JavaScript skills . By working with hands
 -  [**Day 1**](https://github.com/bara1999/Mastering-JavaScript-in-20-Days/blob/master/Day1.md)
 -  [**Day 2**](https://github.com/bara1999/Mastering-JavaScript-in-20-Days/blob/master/Day2.md)
 -  [**Day 3**](https://github.com/bara1999/Mastering-JavaScript-in-20-Days/blob/master/Day3.md)
+-  [**Day 4**](https://github.com/bara1999/Mastering-JavaScript-in-20-Days/blob/master/Day4.md)
