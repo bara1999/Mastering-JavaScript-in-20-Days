@@ -1,13 +1,62 @@
 
-# Day 1: Basic JavaScript
+# Day 3: Basic JavaScript
 
 ## Lesson Summary
 
+### Functions:
+we learnt declaring a function and calling it
+functions can hold one or more parameters.
+parameters are the inputs a function expects.
+arguments are the actual values the function is called with.
+A return statement specifies the function's output value.
+
+### Arrow Function:
+The arrow function  =>  lets us create an unnamed function without much code, we can assign arrow function to a variable.
+
+### Scope
+Scope determines where variables are "in play".
+The widest scope is the global scope.
+Each function gets its own new scope within the scope where it was declared.
+Variables declared with the var keyword can NOT have block scope.
 
 
 ## Coding Examples
 
 ```javascript
+function add3(x, y, z) { //x,y,z are parameters 
+    console.log("My parameters are named x, y, z");
+    console.log("I received the arguments", x, y, z);
+    return x + y + z;
+}
+const sum = add3(4,5,6); // 4,5,6 are arguments
+
+const add = (x, y) => x + y; //arrow function
+
+function declareBankruptcy() {
+    let bankruptcy = true;
+}
+declareBankruptcy();
+console.log(bankruptcy);//this will raise an error.
+
+let planet = "Jupiter";
+function scopeOut() {
+    let planet = "Mars";
+    console.log("Inner planet:", planet);
+}
+scopeOut();//Inner planet: Mars
+console.log("Outer planet:", planet);//Inner planet: Jupiter
+
+let x = 10;
+{
+let x = 2;
+}
+consol.log(x);// x is 10
+
+var x = 10;
+{
+var x = 2;
+}
+consol.log(x) // x is 2
 
 ```
 

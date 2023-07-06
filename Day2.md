@@ -1,13 +1,60 @@
 
-# Day 1: Basic JavaScript
+# Day 2: Basic JavaScript
 
 ## Lesson Summary
 
+###  Expression & values
+Expressionis a valid unit of code that resolves to a value.
+To declaring a variable we can use let or const.
+
+### Arrays
+Arrays let us keep multiple values together in a single collection.
+There are some methods in arrays like string for example: length, indexof,etc.
+The pop() method removes (pops) the last element of an array.
+The push() method adds new items to the end of an array.
+The join() method returns an array as a string.
+The concat() method concatenates (joins) two or more arrays.
+
+### Objects
+Objects collect multiple values together to describe more complex data.
+objects let us point at related values using properties in the object.
+this in a method lets us reference other properties on the object.
+Nested objects is object of object.
 
 
 ## Coding Examples
 
 ```javascript
+let scrub = "guy that thinks he's fly";
+let busta = scrub;
+scrub = "guy that can't get no love from me";
+
+//Example on array
+let synonyms = ["plethora", "array", "cornucopia"];
+consol.log(synonyms.length);
+consol.log(synonyms[1]);
+consol.log(synonyms.indexOf("cornucopia"));
+synonyms[1] = "variety";
+let lastItem = synonyms.pop();
+synonyms.push("multitude");
+let cArray=[1, 2, 3].concat([4, 5, 6]);
+let jArray=["lions", "tigers", "bears oh my!"].join(" & ");
+
+
+//Example on object
+const dog = {
+    name: "Ein",
+    breed: "Corgi",
+    speak: function () {
+        console.log("woof woof");
+    }
+}
+anjana.speak = function () {
+    console.log("Hi my name is", this.name);
+}
+anjana.speak();
+
+
 
 ```
 
